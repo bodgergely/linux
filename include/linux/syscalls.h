@@ -608,6 +608,7 @@ asmlinkage long sys_tkill(pid_t pid, int sig);
 asmlinkage long sys_tgkill(pid_t tgid, pid_t pid, int sig);
 asmlinkage long sys_sigaltstack(const struct sigaltstack __user *uss,
 				struct sigaltstack __user *uoss);
+asmlinkage long sys_upper_case(char *in, char* out);
 asmlinkage long sys_rt_sigsuspend(sigset_t __user *unewset, size_t sigsetsize);
 #ifndef CONFIG_ODD_RT_SIGACTION
 asmlinkage long sys_rt_sigaction(int,

@@ -591,7 +591,9 @@ __SYSCALL(__NR_brk, sys_brk)
 #define __NR_munmap 215
 __SYSCALL(__NR_munmap, sys_munmap)
 #define __NR_mremap 216
-__SYSCALL(__NR_mremap, sys_mremap)
+
+#define __NR_upper_case 223
+__SYSCALL(__NR_upper_case, sys_upper_case)
 
 /* security/keys/keyctl.c */
 #define __NR_add_key 217

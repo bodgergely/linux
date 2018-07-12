@@ -24,7 +24,7 @@ extern asmlinkage long sys_ni_syscall(unsigned long, unsigned long, unsigned lon
 
 #define __SYSCALL_I386(nr, sym, qual) [nr] = sym,
 
-__visible const sys_call_ptr_t ia32_sys_call_table[__NR_syscall_compat_max+1] = {
+__visible sys_call_ptr_t ia32_sys_call_table[__NR_syscall_compat_max+1] = {
 	/*
 	 * Smells like a compiler bug -- it doesn't work
 	 * when the & below is removed.

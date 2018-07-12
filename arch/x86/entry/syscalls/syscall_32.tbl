@@ -234,7 +234,7 @@
 220	i386	getdents64		sys_getdents64			__ia32_sys_getdents64
 221	i386	fcntl64			sys_fcntl64			__ia32_compat_sys_fcntl64
 # 222 is unused
-# 223 is unused
+223 i386    upper_case      sys_upper_case
 224	i386	gettid			sys_gettid			__ia32_sys_gettid
 225	i386	readahead		sys_readahead			__ia32_compat_sys_x86_readahead
 226	i386	setxattr		sys_setxattr			__ia32_sys_setxattr
