@@ -1505,6 +1505,7 @@ size_t perf_event__fprintf(union perf_event *event, FILE *fp)
 		ret += fprintf(fp, "\n");
 	}
 
+	fflush(fp);
 	return ret;
 }
 
