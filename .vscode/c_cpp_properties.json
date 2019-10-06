@@ -1,0 +1,23 @@
+{
+    "configurations": [{
+        "name": "Linux",
+        "includePath": [
+            "${workspaceFolder}/include/**",
+            "${workspaceFolder}/kernel/**"
+        ],
+        "defines": [
+            "CONFIG_SMP",
+            "CONFIG_HIGH_RES_TIMERS",
+            "CONFIG_NO_HZ_COMMON",
+            "CONFIG_FAIR_GROUP_SCHED",
+            "CONFIG_SMP",
+            "CONFIG_X86_64_SMP",
+            "CONFIG_GENERIC_SMP_IDLE_THREAD"
+        ],
+        "compilerPath": "/usr/bin/gcc",
+        "cStandard": "c11",
+        "cppStandard": "c++98",
+        "intelliSenseMode": "clang-x64"
+    }],
+    "version": 4
+}
