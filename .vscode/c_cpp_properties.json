@@ -7,6 +7,8 @@
         ],
         "defines": [
             "CONFIG_SMP",
+            "CONFIG_COMPACTION",
+            "CONFIG_SCHED_AUTOGROUP",
             "CONFIG_HIGH_RES_TIMERS",
             "CONFIG_NO_HZ_COMMON",
             "CONFIG_FAIR_GROUP_SCHED",
