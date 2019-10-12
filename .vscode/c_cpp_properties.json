@@ -6,6 +6,10 @@
             "${workspaceFolder}/kernel/**"
         ],
         "defines": [
+            "CONFIG_X86",
+            "CONFIG_X86_64",
+            "CONFIG_X86_64_SMP",
+            "CONFIG_X86_64_ACPI_NUMA",
             "CONFIG_SMP",
             "CONFIG_COMPACTION",
             "CONFIG_SCHED_AUTOGROUP",
