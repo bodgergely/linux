@@ -1,4 +1,12 @@
 {
     "restructuredtext.confPath": "",
-    "restructuredtext.linter.disabled": true
+    "restructuredtext.linter.disabled": true,
+    "files.associations": {
+        "leds.h": "c",
+        "slab.h": "c",
+        "init.h": "c",
+        "tty_flip.h": "c",
+        "kbd_diacr.h": "c",
+        "intel_sprite.h": "c"
+    }
 }

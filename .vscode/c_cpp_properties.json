@@ -3,9 +3,11 @@
         "name": "Linux",
         "includePath": [
             "${workspaceFolder}/include/**",
-            "${workspaceFolder}/kernel/**"
+            "${workspaceFolder}/kernel/**",
+            "${workspaceFolder}/arch/x86/include"
         ],
         "defines": [
+            "CONFIG_64BIT",
             "CONFIG_X86",
             "CONFIG_X86_64",
             "CONFIG_X86_64_SMP",
@@ -16,9 +18,15 @@
             "CONFIG_HIGH_RES_TIMERS",
             "CONFIG_NO_HZ_COMMON",
             "CONFIG_FAIR_GROUP_SCHED",
+            "CONFIG_CFS_BANDWIDTH",
             "CONFIG_SMP",
             "CONFIG_X86_64_SMP",
-            "CONFIG_GENERIC_SMP_IDLE_THREAD"
+            "CONFIG_GENERIC_SMP_IDLE_THREAD",
+            "CONFIG_VT",
+            "CONFIG_VT_CONSOLE",
+            "CONFIG_HOTPLUG_CPU",
+            "CONFIG_SYSFS",
+            "CONFIG_SYSFS_SYSCALL"
         ],
         "compilerPath": "/usr/bin/gcc",
         "cStandard": "c11",
