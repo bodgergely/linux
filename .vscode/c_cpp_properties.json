@@ -26,7 +26,13 @@
             "CONFIG_VT_CONSOLE",
             "CONFIG_HOTPLUG_CPU",
             "CONFIG_SYSFS",
-            "CONFIG_SYSFS_SYSCALL"
+            "CONFIG_SYSFS_SYSCALL",
+            "CONFIG_SLUB",
+            "CONFIG_SLUB_CPU_PARTIAL",
+            "CONFIG_SLUB_DEBUG",
+            "CONFIG_BLOCK",
+            "CONFIG_MMU",
+            "CONFIG_MMU_NOTIFIER"
         ],
         "compilerPath": "/usr/bin/gcc",
         "cStandard": "c11",
